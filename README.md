@@ -18,10 +18,18 @@ Unity로 제작한 타워 디펜스 토이 프로젝트입니다.
 
 ## 스크린샷 / GIF
 ### 시작화면
-bla bla
-
+![타이틀 화면](Screenshots/title_screen.png)
+### 게임플레이
+![게임 플레이](Screenshots/game_play.png)
+### 유닛배치
+![유닛 배치](Screenshots/hero_placement.png)
+### 보스등장
+![보스스테이지](Screenshots/boss_stage.png)
+### 게임오버
+![보스스테이지](Screenshots/game_over.png)
 ### 게임 플레이 GIF
-bla bla
+![플레이1](Screenshots/gameplay1.gif)
+![플레이2](Screenshots/gameplay2.gif)
 
 ## 개발 과정 및 배운 점(수정하삼)
 - 게임 매니저, UI 매니저 등 핵심 시스템에 싱글톤 패턴 적용
