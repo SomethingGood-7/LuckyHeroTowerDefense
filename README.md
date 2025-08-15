@@ -18,23 +18,29 @@ Unity로 제작한 타워 디펜스 토이 프로젝트입니다.
 
 ## 스크린샷 / GIF
 ### 시작화면
-![타이틀 화면](Screenshots/title_screen.png)
-### 게임플레이
-![게임 플레이](Screenshots/game_play.png)
-### 유닛배치
-![유닛 배치](Screenshots/hero_placement.png)
-### 보스등장
-![보스스테이지](Screenshots/boss_stage.png)
-### 게임오버
-![보스스테이지](Screenshots/game_over.png)
-### 게임 플레이 GIF
-![플레이1](Screenshots/gameplay1.gif)
-![플레이2](Screenshots/gameplay2.gif)
+<img src="Screenshots/title_screen.png" alt="타이틀 화면" width="480"/>
 
-## 개발 과정 및 배운 점(수정하삼)
-- 게임 매니저, UI 매니저 등 핵심 시스템에 싱글톤 패턴 적용
-- ReactiveProperty와 이벤트 기반 설계로 상태 변화와 데이터 바인딩 구현
-- Tilemap과 Pathfinding을 활용한 맵 및 몬스터 경로 설계
+### 게임플레이
+<img src="Screenshots/game_play.png" alt="게임 플레이" width="480"/>
+
+### 유닛배치
+<img src="Screenshots/hero_placement.png" alt="유닛 배치" width="480"/>
+
+### 보스등장
+<img src="Screenshots/boss_stage.png" alt="보스 스테이지" width="480"/>
+
+### 게임오버
+<img src="Screenshots/game_over.png" alt="게임 오버" width="480"/>
+
+### 게임 플레이 GIF
+<img src="Screenshots/gameplay1.gif" alt="게임플레이1" width="480"/>
+<img src="Screenshots/gameplay2.gif" alt="게임플레이2" width="480"/>
+
+
+## 개발 과정 및 배운 점
+- 게임 매니저, 스폰 매니저 등 핵심 시스템에 싱글톤 패턴 적용
+- Tilemap을 활용한 맵 및 몬스터 경로 설계
 - 게임 시작 → 게임 오버 → 재시작 흐름 구현으로 게임 상태 관리 경험
 - 유니티 애니메이션과 오브젝트 풀링 적용으로 성능 최적화 경험
+- ReactiveProperty와 이벤트 기반 설계로 상태 변화와 데이터 바인딩 구현
 - 코드 구조화와 리팩토링을 통해 유지보수성과 확장성 향상
